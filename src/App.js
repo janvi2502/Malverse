@@ -255,7 +255,7 @@ function App() {
           receipt.map(async (r) => {
             const requestOptions = { method: "GET" };
             const response = await fetch(
-              `https://ipfs.io/ipfs${baseURIOfNFT.substring(6)}${r}.json`,
+              `${baseURIOfNFT}${r}.json`,
               requestOptions
             );
 
@@ -423,14 +423,14 @@ function App() {
           >
             Profile Page
           </StyledButton>
-          <SocialLink href="https://twitter.com/astardegens" target="_blank">
+          <SocialLink href="#" target="_blank">
             <FontAwesomeIcon icon={faTwitter} size="lg" />
           </SocialLink>
-          <SocialLink href="https://discord.gg/TGbsGh6UQZ" target="_blank">
+          <SocialLink href="#" target="_blank">
             <FontAwesomeIcon icon={faDiscord} size="lg" />
           </SocialLink>
           <SocialLink
-            href="https://www.youtube.com/channel/UCFNkLmrqNJExZ9nmQIJtpNg/videos"
+            href="#"
             target="_blank"
           >
             <FontAwesomeIcon icon={faYoutube} size="lg" />
@@ -474,14 +474,14 @@ function App() {
                         return (
                           <div>
                             <img
-                              src={`https://ipfs.io/ipfs${image.substring(6)}`}
+                              src={`${image}`}
                               width="100%"
                             />
                             <div
                               style={{ textAlign: "center", color: "white" }}
                             >
                               {" "}
-                              NAME: {name}
+                              {name}
                             </div>
                           </div>
                         );
@@ -797,36 +797,11 @@ function App() {
           <s.TextTitle style={{ fontSize: 50 }}><h1 className="name">CORE TEAM</h1></s.TextTitle>
           <ImagesContainer style={{ padding: "0", margin: "0", width: "100%" }}>
             <img src="/config/images/unnamed.png" alt="Astar Degens NFT preview" />
-            <img src="/config/images/abc.png" alt="Astar Degens NFT preview" />
+            <img src="/config/images/milan.png" alt="Astar Degens NFT preview" />
             <img src="/config/images/cde.png" alt="Astar Degens NFT preview" />
             <img src="/config/images/qwe.png" alt="Astar Degens NFT preview" />
           </ImagesContainer>
-          {/* <CoreTeamContainer>
-            <SocialLink href="https://twitter.com/0xRamz" target="_blank">
-              @0xRamz
-            </SocialLink>
-            <SocialLink href="https://twitter.com/xpnp404" target="_blank">
-              @xpnp404
-            </SocialLink>
-            <SocialLink href="https://twitter.com/VD_546" target="_blank">
-              @VD_546
-            </SocialLink>
-            <SocialLink
-              href="https://twitter.com/Dr_Preposterous"
-              target="_blank"
-            >
-              @Dr_Preposterous
-            </SocialLink>
-            <SocialLink href="https://twitter.com/Maarr_io" target="_blank">
-              @Maarr_io
-            </SocialLink>
-            <SocialLink href="https://twitter.com/b0b0_k" target="_blank">
-              @b0b0_k
-            </SocialLink>
-            <SocialLink href="https://github.com/Dinonard" target="_blank">
-              Dinonard
-            </SocialLink>
-          </CoreTeamContainer> */}
+         
         </StyledContainer>
       </StyledSection>
     </Root>

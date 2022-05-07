@@ -1,13 +1,13 @@
 {
-"CONTRACT_ADDRESS" : "0x6345DcC15d3a8BF061f51bFf4eE146481143B987",
-  "SCAN_LINK": "https://polygonscan.com/token/0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
+"CONTRACT_ADDRESS" : "0x41a36Df2e3c7dd2767E5253E0477D28C9f45DBca",
+  "SCAN_LINK": "https://testnet.bscscan.com/address/0x41a36Df2e3c7dd2767E5253E0477D28C9f45DBca",
   "NETWORK": {
-    "NAME": "Mumbai",
-    "SYMBOL": "Matic",
-    "ID": 137
+    "NAME": "Binance",
+    "SYMBOL": "BNB",
+    "ID": 97
   },
-  "NFT_NAME": "The SANDBOX NFT",
-  "SYMBOL": "SANDBOX",
+  "NFT_NAME": "Malverse NFT",
+  "SYMBOL": "Malverse NFT",
   "MAX_SUPPLY": 992,
   "WEI_COST": 100000000000000000,
   "DISPLAY_COST": 0.1,
