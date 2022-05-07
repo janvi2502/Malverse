@@ -1,0 +1,18 @@
+{
+"CONTRACT_ADDRESS" : "0x6345DcC15d3a8BF061f51bFf4eE146481143B987",
+  "SCAN_LINK": "https://polygonscan.com/token/0x0b18b900F7375AABDa00EEaC988116C33fb05BD2",
+  "NETWORK": {
+    "NAME": "Mumbai",
+    "SYMBOL": "Matic",
+    "ID": 137
+  },
+  "NFT_NAME": "The SANDBOX NFT",
+  "SYMBOL": "SANDBOX",
+  "MAX_SUPPLY": 992,
+  "WEI_COST": 100000000000000000,
+  "DISPLAY_COST": 0.1,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/the-stripes-nft",
+  "SHOW_BACKGROUND": true
+}
